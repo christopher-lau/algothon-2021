@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 
-df = pd.read_csv("C:/Users/User/Downloads/data_uncorrupted.csv")
+df = pd.read_csv("data_uncorrupted.csv")
 
 app = dash.Dash(__name__)
 app.title = "Algothon Data Visualisation Dashboard"
